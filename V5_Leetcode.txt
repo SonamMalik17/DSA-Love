@@ -1,0 +1,42 @@
+// Q1281 : Subtract the Product and Sum of Digits of an Integer
+
+---> Given an integer number n, return the difference between the product of its digits and the sum of its digits.
+
+Solution : 
+class Solution {
+public:
+    int subtractProductAndSum(int n) {
+        int r,pr,sum;
+        pr=1;
+        sum=0;
+        while(n!=0)
+        {
+            r=n%10;
+            sum+=r;
+            pr*=r;
+            n=n/10;
+        }
+        return(pr-sum);
+    }
+};
+
+
+// Q191 : Number of 1 Bits
+
+---> Write a function that takes the binary representation of an unsigned integer and returns the number of '1' bits it has (also known as the Hamming weight).
+
+Solution : 
+class Solution {
+public:
+    int hammingWeight(uint32_t n) {
+        int o=0;
+        while(n!=0)
+        {
+            if(n&1){
+                ++o;
+            }
+            n=n>>1;
+        }
+        return o;
+    }
+};
