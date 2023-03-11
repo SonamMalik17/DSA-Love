@@ -13,14 +13,15 @@ int power(int a2,int b2)
 }
 
 
+// Use either form1 or form2
 // form2
-int power(int c2,int d2)
-{
-    int answer2=1;
-    for(int i3=1;i3<=d2;i3++)
-        answer2=answer2*c2;
-    return answer2;
-}
+// int power(int c2,int d2)
+// {
+//     int answer2=1;
+//     for(int i3=1;i3<=d2;i3++)
+//         answer2=answer2*c2;
+//     return answer2;
+// }
 
 
 // form3
