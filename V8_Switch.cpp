@@ -1,4 +1,5 @@
 #include<iostream>
+#include<stdlib.h>
 using namespace std;
 int main()
 {
@@ -106,6 +107,7 @@ int main()
     // HW
     // infinite loop me switch how to come out of loop bcoz break to bs switch se bahar nikalega use exit to come out of loop
     // exit function
+    // Header file : #include<stdlib.h>    
     // The syntax for using the exit() function is given below,
     // exit( exit_value );
     // Here, exit_value is the value passed to the Operating system after the successful termination of the program. This value can be tested in batch files where ERROR LEVEL gives us the return value provided by the exit() function. Generally, the value 0 indicates a successful termination and any other number indicates some error.
