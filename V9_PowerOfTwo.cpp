@@ -1,3 +1,4 @@
+// Tried the way told by Babbar 
 #include<iostream>
 using namespace std;
 

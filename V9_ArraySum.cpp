@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+// HW
 int arraySum(int a[],int n)
 {
     int sum=0;
