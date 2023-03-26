@@ -1,3 +1,5 @@
+// Not an optimised solution
+
 #include<iostream>
 using namespace std;
 
